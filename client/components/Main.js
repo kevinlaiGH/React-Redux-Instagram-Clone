@@ -6,10 +6,9 @@ const Main = React.createClass({
     return (
       <div>
         <h1>
-          {' '}
-          <Link to="/"> Decathlon </Link>{' '}
+          <Link to="/">Decathlon</Link>
         </h1>
-        {/* {React.cloneElement(this.props.children, this.props)} */}
+        {React.cloneElement(this.props.children, this.props)}
       </div>
     );
   }
